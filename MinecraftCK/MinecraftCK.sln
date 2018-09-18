@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCK", "Assembly-CSharp.csproj", "{FCB9F6EC-7BCB-6BD9-00AA-52F98F63E16B}"
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftCK", "MinecraftCK.csproj", "{55D86036-E37E-83F9-9956-33BBB7439FFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PackageManagerUI.Editor", "Unity.PackageManagerUI.Editor.csproj", "{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.StandardEvents", "UnityEditor.StandardEvents.csproj", "{6800202F-4402-D405-F8CB-03DC7BD78B92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +13,18 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FCB9F6EC-7BCB-6BD9-00AA-52F98F63E16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FCB9F6EC-7BCB-6BD9-00AA-52F98F63E16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FCB9F6EC-7BCB-6BD9-00AA-52F98F63E16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FCB9F6EC-7BCB-6BD9-00AA-52F98F63E16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D86036-E37E-83F9-9956-33BBB7439FFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D86036-E37E-83F9-9956-33BBB7439FFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D86036-E37E-83F9-9956-33BBB7439FFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D86036-E37E-83F9-9956-33BBB7439FFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6800202F-4402-D405-F8CB-03DC7BD78B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6800202F-4402-D405-F8CB-03DC7BD78B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6800202F-4402-D405-F8CB-03DC7BD78B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6800202F-4402-D405-F8CB-03DC7BD78B92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

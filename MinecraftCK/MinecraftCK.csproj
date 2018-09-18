@@ -300,6 +300,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\MatrixTest.cs" />
     <Compile Include="Assets\Script\MinecraftCharacter.cs" />
     <Compile Include="Assets\Script\Quad.cs" />
     <Compile Include="Assets\Script\SkinnedQuad.cs" />
